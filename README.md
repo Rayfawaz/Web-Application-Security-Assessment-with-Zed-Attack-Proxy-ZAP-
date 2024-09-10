@@ -16,8 +16,6 @@ Below is a detailed breakdown of each process
 - **OWASP ZAP Configuration**: OWASP ZAP was launched on Kali Linux, and the proxy settings were configured.
 - The browser was set to route traffic through ZAP's proxy, allowing for interception of HTTP requests.
 
-  *(Screenshot: ZAP proxy configuration screen)*
-
 ---
 
 #### **2. Intercepting Traffic**
@@ -68,10 +66,6 @@ Each identified vulnerability was categorized based on severity, with accompanyi
 
 
 
-- **Session Management**: The session handling in DVWA was evaluated by capturing cookies and inspecting how session tokens were managed. The potential for session fixation or hijacking vulnerabilities was assessed.
-  
-  *(Screenshot: ZAP analyzing session cookies and authentication tokens)*
-
 ---
 
 #### **6. Reporting Findings**
@@ -86,5 +80,9 @@ The report summarized all the vulnerabilities found during the assessment, provi
 
 ### Conclusion
 
-This project successfully demonstrated the use of OWASP ZAP to assess the security of a web application. Vulnerabilities such as SQL injection, XSS, and authentication flaws were identified and documented. The findings provided insights into how to strengthen the security of DVWA.
+This project successfully demonstrated the use of OWASP ZAP to assess the security of a web application. Vulnerabilities such as SQL injection, XSS, and authentication flaws were identified and documented. 
+The findings provided insights into how to strengthen the security of DVWA.
+
+[2024-09-10-ZAP-Report-.pdf](https://github.com/user-attachments/files/16944327/2024-09-10-ZAP-Report-.pdf)
+
 
